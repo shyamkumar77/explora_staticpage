@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Bangers&family=Bevan&family=Bona+Nova&family=Crimson+Text&family=EB+Garamond&family=Fredoka+One&family=Great+Vibes&family=Lobster+Two&family=Martel&family=Mr+Dafoe&family=Nanum+Myeongjo&family=New+Rocker&family=Orelega+One&family=Passion+One&family=Rampart+One&family=Rowdies&display=swap');
+.banner{
+    width: 100%;
+    height: 900px;
+    background-color: rgba(22, 21, 21, 0.54);
+    font-size: larger;
+    background-image: url("./images/bg2.jpg");
+    background-size: cover;
+
+}
+.cc1{
+    position: fixed;
+}
+
+i{
+    color: rgb(255, 254, 254);
+    font-family: 'Bevan', cursive;
+}
+
+li a{
+    float: left;
+    color: black;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: -21px;
+    font-family: 'Bevan', cursive;
+    
+}
+
+li a:hover{
+    background-color: black;
+    color: white;
+}
+
+i{
+    font-size: xx-large;
+}
+
+li{
+    margin-left: 700px;
+}
+
+.h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.h2{
+    text-align: center;
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+.p1{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 20px;
+    font-family: 'Bona Nova', serif;
+}
+
+
+.b1{
+    height: 60px;
+    width: 180px;
+    margin-left: 42%;
+    border-radius: 20px;
+    font-size: large;
+    font-weight: 700;
+    color: black;
+    font-family: 'Orelega One', cursive;
+    background-color: rgba(35, 139, 110, 0.726);
+}
+
+.b1:hover{
+    background-color: white;
+    color: black;
+    
+}
+
+/* ############################################################# */
+
+.t1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Rowdies', cursive;
+   
+}
+
+.main{
+    width: 100%;
+    height: 750px;
+     /* background-color: grey; */
+    /* border: black solid 5px;   */
+    display: flex;
+    justify-content: space-evenly;
+    transition: 1s ease-in-out;
+    /* background-image: url("./images/pexels-asad-photo-maldives-457881.jpg");
+    background-size: cover; */
+}
+
+.col{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    /* border: black dotted 2px; */
+}
+
+
+.col img{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+
+    box-shadow: 0 4px 8px 0 rgba(219, 13, 13, 0.2), 0 6px 20px 0 rgba(203, 29, 29, 0.19);
+    
+}
+
+.col img:hover{
+    transform: scale(1.5);
+}
+
+.col button{
+    width: 118px;
+    height: 51px;
+    background-color: black;
+    color: white;
+    font-family: 'Orelega One', cursive;
+    
+    /* float: left; */
+
+}
+.b2{
+    margin-top: 23px;
+    font-family: 'Orelega One', cursive;
+}
+
+.m1{
+    width: 300px;
+    height: 70px;
+    margin-left: 40%;
+    font-size: x-large;
+    font-family: 'Orelega One', cursive;
+    background-color: rgba(35, 139, 110, 0.726);
+    color: black;
+}
+
+.m1:hover{
+    color: black;
+    background-color: white;
+}
+
+.col p{
+    padding: 5px;
+    font-size: larger;
+}
+
+.col h3{
+    font-size: xx-large;
+}
+/* ####################################################### */
+
+
+.north{
+    width: 100%;
+    height: 585px;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: space-evenly;
+    transition: 1s ease-in;
+
+    
+}
+
+
+.h3{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Rowdies', cursive;
+}
+
+.com{
+    width: 300px;
+    height: 300px;
+    /* border: 5px blue solid; */
+    padding: 10px;
+    text-align: center;
+
+}
+
+.com p{
+    font-family: 'Bona Nova', serif;
+
+}
+
+img{
+    width: 100%;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(52, 190, 214, 0.763), 0 6px 20px 0 rgba(203, 29, 29, 0.19);
+    
+    
+}
+
+img:hover{
+    transform: scale(1.5);
+
+}
+
+.com h3{
+    font-size: x-large;
+}
+
+.com p{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.vm{
+    width: 150px;
+    height: 60px;
+    margin-left: 45%;
+    background-color: rgba(35, 139, 110, 0.726);
+    font-family: 'Orelega One', cursive;
+    font-size: larger;   
+}
+
+.vm:hover{
+    background-color: white;
+}
+
+/* ##################################################### */
+
+#i1{
+    width: 82%;
+    height: 290px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 100px;
+    border: 10px black solid;
+    border-radius: 50px;
+    font-size: 30px;
+    background-color: rgba(244, 229, 229, 0.852);
+    font-family: 'Passion One', cursive;
+}
+
+.cc1{
+    width: 180px;
+    height: 70px;
+    border-radius: 30px;
+    font-size: x-large;
+    background-color: rgba(35, 139, 110, 0.726);
+    font-family: 'Orelega One', cursive;
+}
+
+.cc1:hover{
+    background-color: white;
+    color: black;
+}
+
+
+/* ################################################## */
+
+.last{
+    width: 100%;
+    height: 350px;
+    border: 2px black solid;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    
+}
+
+.r1{
+    margin-left: 220px;
+    font-size: xx-large;
+}
+
+.lst1{
+    margin-left: 400px;
+    margin-top: -210px;
+   
+}
+
+.lst2{
+    margin-left: 750px;
+    margin-top: -300px;
+}
+
+.lst2 h3{
+    font-size: xx-large;
+    margin-top: 6px;
+}
+
+
