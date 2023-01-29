@@ -231,15 +231,15 @@ img:hover{
 /* ##################################################### */
 
 #i1{
-    width: 82%;
+    width: 80%;
     height: 290px;
     text-align: center;
     margin-top: 50px;
     margin-left: 100px;
-    border: 10px black solid;
+    /* border: 10px black solid; */
     border-radius: 50px;
     font-size: 30px;
-    background-color: rgba(244, 229, 229, 0.852);
+    background-color: lightblue;
     font-family: 'Passion One', cursive;
 }
 
